@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_screen" translatesAutoresizingMaskIntoConstraints="NO" id="HoL-QM-LFq">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HoL-QM-LFq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FcB-vF-SaT"/>
+                <constraint firstItem="HoL-QM-LFq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IMJ-Uf-1G5"/>
+                <constraint firstAttribute="bottom" secondItem="HoL-QM-LFq" secondAttribute="bottom" id="jrZ-zs-cjb"/>
+                <constraint firstAttribute="trailing" secondItem="HoL-QM-LFq" secondAttribute="trailing" id="w3M-gi-Von"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="HoL-QM-LFq"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="FcB-vF-SaT"/>
+                    <exclude reference="IMJ-Uf-1G5"/>
+                    <exclude reference="jrZ-zs-cjb"/>
+                    <exclude reference="w3M-gi-Von"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="HoL-QM-LFq"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="FcB-vF-SaT"/>
+                    <include reference="IMJ-Uf-1G5"/>
+                    <include reference="jrZ-zs-cjb"/>
+                    <include reference="w3M-gi-Von"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="547.5" y="454.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="launch_screen" width="375" height="667"/>
+    </resources>
+</document>
