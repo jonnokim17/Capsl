@@ -15,7 +15,6 @@
 		4F69EBD21A252331009625AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F69EBD01A252331009625AA /* LaunchScreen.xib */; };
 		4F69EBDE1A252331009625AA /* CapslTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F69EBDD1A252331009625AA /* CapslTests.m */; };
 		4F69EBE91A2531D9009625AA /* CapsuleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F69EBE81A2531D9009625AA /* CapsuleListViewController.m */; };
-		4F69EBEC1A25320C009625AA /* MessageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F69EBEB1A25320C009625AA /* MessageDetailViewController.m */; };
 		4F69EBEF1A253269009625AA /* ChooseTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F69EBEE1A253269009625AA /* ChooseTypeViewController.m */; };
 		4F69EBF21A25327A009625AA /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F69EBF11A25327A009625AA /* MessageViewController.m */; };
 		4F69EBF81A2532C8009625AA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F69EBF71A2532C8009625AA /* ProfileViewController.m */; };
@@ -108,8 +107,6 @@
 		4F69EBDD1A252331009625AA /* CapslTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapslTests.m; sourceTree = "<group>"; };
 		4F69EBE71A2531D9009625AA /* CapsuleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapsuleListViewController.h; sourceTree = "<group>"; };
 		4F69EBE81A2531D9009625AA /* CapsuleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapsuleListViewController.m; sourceTree = "<group>"; };
-		4F69EBEA1A25320C009625AA /* MessageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDetailViewController.h; sourceTree = "<group>"; };
-		4F69EBEB1A25320C009625AA /* MessageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDetailViewController.m; sourceTree = "<group>"; };
 		4F69EBED1A253269009625AA /* ChooseTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseTypeViewController.h; sourceTree = "<group>"; };
 		4F69EBEE1A253269009625AA /* ChooseTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseTypeViewController.m; sourceTree = "<group>"; };
 		4F69EBF01A25327A009625AA /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageViewController.h; path = ../MessageViewController.h; sourceTree = "<group>"; };
@@ -295,7 +292,6 @@
 				4FB6B7781A38F8E90003DE0B /* JCALockNavController.h */,
 				4FB6B7791A38F8E90003DE0B /* JCALockNavController.m */,
 				8DE360611A2D6E6500DAE08C /* View Capsules */,
-				8DC55F3A1A2B8B4500AF1AB8 /* Capsule View */,
 				4FC4EA191A2B027500D3D09D /* Capture & Compose VCs */,
 				4FC4EA1A1A2B030000D3D09D /* Profile & Contact VCs */,
 				8D6A97731A32322400ECA7D9 /* Custom Segues */,
@@ -483,15 +479,6 @@
 			name = "Custom Segues";
 			sourceTree = "<group>";
 		};
-		8DC55F3A1A2B8B4500AF1AB8 /* Capsule View */ = {
-			isa = PBXGroup;
-			children = (
-				4F69EBEA1A25320C009625AA /* MessageDetailViewController.h */,
-				4F69EBEB1A25320C009625AA /* MessageDetailViewController.m */,
-			);
-			name = "Capsule View";
-			sourceTree = "<group>";
-		};
 		8DE360611A2D6E6500DAE08C /* View Capsules */ = {
 			isa = PBXGroup;
 			children = (
@@ -654,7 +641,6 @@
 				4F69EBEF1A253269009625AA /* ChooseTypeViewController.m in Sources */,
 				8DEA789B1A31206900271A8A /* CapsuleListBackground.m in Sources */,
 				905E90131A2FE55600BF32E3 /* UpdateProfileInfoViewController.m in Sources */,
-				4F69EBEC1A25320C009625AA /* MessageDetailViewController.m in Sources */,
 				905E90101A2FA3FC00BF32E3 /* EditProfilePicTableViewCell.m in Sources */,
 				4FC4EA181A2B021D00D3D09D /* RecordAudioViewController.m in Sources */,
 				4F69EC221A253D2B009625AA /* Capsl.m in Sources */,
